@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: pink;
+}
+
+.vrouw:checked ~ * .vrouw {
+  background-color: blue;
+}
+
+.man:checked ~ * .man {
+  background-color: green;
+}
