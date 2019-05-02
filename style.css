@@ -24,6 +24,7 @@ body {
   grid-row: 1;
   grid-column: 1/3;
   grid-area: Our Team;
+  color: #347b98;
 }
 .item1 {
   grid-area: Aarnoud;
@@ -48,20 +49,26 @@ body {
 img {
   max-width: 60%;
   max-height: 80px;
-  /*object-fit: cover;*/
   overflow: hidden;
   border-radius: 15px;
   transform: translate(0) rotate(90deg);
   margin-top: 25px;
 }
+#vrouwen {
+  color: #b2d732;
+  border-radius: 15px 15px;
+  background-color: black;
+}
+#mannen {
+  color: #b2d732;
+  border-radius: 15px 15px;
+  background-color: black;
+}
+p {
+  color: darkgreen;
+  font-style: oblique;
+}
 
-/*
-.item1,
-.item2,
-.item3,
-.item4 {
-  height: 6em;
-}*/
 .footer {
   grid-area: Footer;
   grid-row: 4;
