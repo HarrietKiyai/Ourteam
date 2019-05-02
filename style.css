@@ -45,12 +45,23 @@ body {
   grid-row: 3;
   grid-column: 2/3;
 }
+img {
+  max-width: 60%;
+  max-height: 80px;
+  /*object-fit: cover;*/
+  overflow: hidden;
+  border-radius: 15px;
+  transform: translate(0) rotate(90deg);
+  margin-top: 25px;
+}
+
+/*
 .item1,
 .item2,
 .item3,
 .item4 {
   height: 6em;
-}
+}*/
 .footer {
   grid-area: Footer;
   grid-row: 4;
