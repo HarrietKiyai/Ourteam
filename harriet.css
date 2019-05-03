@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f7d4dc;
+}
+.container {
+  display: grid;
+  background-color: #d61a46;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
