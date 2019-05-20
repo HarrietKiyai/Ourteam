@@ -1,1 +1,1 @@
-Created grid layout
+# Upgrade of the introduction page
